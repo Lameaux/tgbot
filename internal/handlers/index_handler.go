@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"euromoby.com/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/config"
 )
 
 type IndexHandler struct{}

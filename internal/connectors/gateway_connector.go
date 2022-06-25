@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"euromoby.com/tgbot/internal/models"
+	"github.com/Lameaux/tgbot/internal/models"
 )
 
 const (

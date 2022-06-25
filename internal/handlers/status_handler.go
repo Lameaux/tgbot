@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	coreviews "euromoby.com/core/views"
-	"euromoby.com/tgbot/internal/config"
-	"euromoby.com/tgbot/internal/inputs"
-	"euromoby.com/tgbot/internal/models"
-	"euromoby.com/tgbot/internal/tgbot"
+	coreviews "github.com/Lameaux/core/views"
+	"github.com/Lameaux/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/inputs"
+	"github.com/Lameaux/tgbot/internal/models"
+	"github.com/Lameaux/tgbot/internal/tgbot"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 

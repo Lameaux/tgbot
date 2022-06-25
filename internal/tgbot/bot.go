@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 
-	"euromoby.com/tgbot/internal/config"
-	"euromoby.com/tgbot/internal/connectors"
-	"euromoby.com/tgbot/internal/models"
-	"euromoby.com/tgbot/internal/repos"
+	"github.com/Lameaux/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/connectors"
+	"github.com/Lameaux/tgbot/internal/models"
+	"github.com/Lameaux/tgbot/internal/repos"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	coremodels "euromoby.com/core/models"
-	coreutils "euromoby.com/core/utils"
+	coremodels "github.com/Lameaux/core/models"
+	coreutils "github.com/Lameaux/core/utils"
 )
 
 type SandboxBot struct {

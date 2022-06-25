@@ -1,10 +1,10 @@
 package main
 
 import (
-	"euromoby.com/core/logger"
-	"euromoby.com/tgbot/internal/config"
-	"euromoby.com/tgbot/internal/connectors"
-	"euromoby.com/tgbot/internal/tgbot"
+	"github.com/Lameaux/core/logger"
+	"github.com/Lameaux/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/connectors"
+	"github.com/Lameaux/tgbot/internal/tgbot"
 )
 
 func startBot(app *config.App) *tgbot.SandboxBot {

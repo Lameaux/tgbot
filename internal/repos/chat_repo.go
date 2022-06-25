@@ -1,8 +1,8 @@
 package repos
 
 import (
-	coremodels "euromoby.com/core/models"
-	"euromoby.com/tgbot/internal/models"
+	coremodels "github.com/Lameaux/core/models"
+	"github.com/Lameaux/tgbot/internal/models"
 )
 
 var msisdnToChat = map[coremodels.MSISDN]models.ChatID{

@@ -3,11 +3,11 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 
-	"euromoby.com/tgbot/internal/config"
-	"euromoby.com/tgbot/internal/handlers"
-	"euromoby.com/tgbot/internal/tgbot"
+	"github.com/Lameaux/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/handlers"
+	"github.com/Lameaux/tgbot/internal/tgbot"
 
-	coremiddlewares "euromoby.com/core/middlewares"
+	coremiddlewares "github.com/Lameaux/core/middlewares"
 )
 
 func Gin(app *config.App, b *tgbot.SandboxBot) *gin.Engine {

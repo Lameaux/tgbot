@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"euromoby.com/core/logger"
+	"github.com/Lameaux/core/logger"
 
-	"euromoby.com/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/config"
 )
 
 func main() {

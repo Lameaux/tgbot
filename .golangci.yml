@@ -1,6 +1,6 @@
 linters-settings:
   goimports:
-    local-prefixes: euromoby.com/tgbot
+    local-prefixes: github.com/Lameaux/tgbot
 
   golint:
     min-confidence: 0

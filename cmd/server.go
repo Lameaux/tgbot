@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"euromoby.com/core/logger"
-	"euromoby.com/tgbot/internal/config"
-	"euromoby.com/tgbot/internal/routes"
-	"euromoby.com/tgbot/internal/tgbot"
+	"github.com/Lameaux/core/logger"
+	"github.com/Lameaux/tgbot/internal/config"
+	"github.com/Lameaux/tgbot/internal/routes"
+	"github.com/Lameaux/tgbot/internal/tgbot"
 )
 
 const serverShutdownTimeout = 5 * time.Second

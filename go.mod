@@ -1,4 +1,4 @@
-module euromoby.com/tgbot
+module github.com/Lameaux/tgbot
 
 go 1.18
 

@@ -1,7 +1,7 @@
 package models
 
 import (
-	coremodels "euromoby.com/core/models"
+	coremodels "github.com/Lameaux/core/models"
 )
 
 type OutcomingMessage struct {

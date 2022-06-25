@@ -3,8 +3,8 @@ package config
 import (
 	"os"
 
-	coreconfig "euromoby.com/core/config"
-	coreutils "euromoby.com/core/utils"
+	coreconfig "github.com/Lameaux/core/config"
+	coreutils "github.com/Lameaux/core/utils"
 )
 
 type App struct {
